@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My GitHub Page</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: #f4f4f4;
+    }
+    a.image-link img {
+      width: 300px;
+      height: auto;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+    a.image-link img:hover {
+      transform: scale(1.05);
+      border-color: #007acc;
+    }
+  </style>
+</head>
+<body>
+  <h1>ようこそ！</h1>
+  <p>以下の画像をクリックすると、リンク先に移動します。</p>
+  <a class="image-link" href="https://example.com">
+    <img src="https://via.placeholder.com/300x200.png?text=サンプル画像" alt="リンク付き画像">
+  </a>
+</body>
+</html>
